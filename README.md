@@ -27,7 +27,7 @@ Things you may want to cover:
 
 ## user テーブル
 
-| Column             | Type   | 0ptions     |
+| Column             | Type   | Options     |
 | ------------------ | ------ | ----------- |
 | name               | string | null: false |
 | email              | string | null: false |
@@ -65,11 +65,11 @@ Things you may want to cover:
 
 ## messages テーブル
 
-| Column  | Type       | Options                        |
-| ------- | -----------| ------------------------------ |
-| content | string     |                                |
-| user    | references | null: false, foreign_key: true |
-| room    | references | null: false, foreign_key: true |
+| Column  | Type       |Options                        |
+| ------- | -----------|------------------------------ |
+| content | string     |                               |
+| user    | references | null: false, foreign_key:true |
+| room    | references | null: false, foreign_key:true |
 
 ### Association
 
